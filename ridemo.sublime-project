@@ -1,0 +1,9 @@
+
+<project>
+	<mount dir="." include="*.h,*cpp,*rb" exclude="*.png,*.jpg,*.exe,*.dll,*.obj,*.pyc" direxclude=".svn,.git,.hg,CVS,bin"/>
+	<options>
+<![CDATA[
+buildFile Packages/C++/Make.sublime-build
+]]>
+	</options>
+</project>
